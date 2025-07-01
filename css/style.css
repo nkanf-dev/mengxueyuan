@@ -1,0 +1,39 @@
+/* 页面主容器样式 */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(120deg, #232526, #414345);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+  color: #ffe066;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.title {
+  font-size: 2.7rem;
+  letter-spacing: 0.2em;
+  color: #ffe066;
+  text-shadow: 2px 2px 8px #000, 0 0 10px #ffe06699;
+}
+
+.info {
+  font-size: 1.3rem;
+  color: #fffbe7;
+  background: rgba(0,0,0,0.2);
+  padding: 6px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0002;
+  margin: 1em;
+}
+
